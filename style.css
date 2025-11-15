@@ -1,0 +1,156 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0b13f3;
+  color: #062df4;
+}
+
+h1, h2 {
+  text-align: center;
+  background: rgb(236, 232, 6);
+  font: bold 24px Arial, sans-serif;
+  padding: 2px;
+  border-radius: 5px;
+  width: 250px;
+  margin: auto;
+  margin-top : 25px;
+  margin-bottom: 30px;
+}
+.title {
+ text-align: center;
+  background: rgb(236, 232, 6);
+  font: bold 24px Arial, sans-serif;
+  padding: 2px;
+  border-radius: 5px;
+  width: 500px;
+  margin: auto;
+  margin-top : 25px;
+  margin-bottom: 30px;
+}
+/* สไตล์สำหรับตารางคะแนน */
+#scoreboard div {
+  padding: 10px;
+  margin: 5px 0;
+  background: #e99c9c;
+  border-radius: 5px;
+  color: #606e04;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+  border: 1px solid black; 
+}
+
+
+/* สไตล์สำหรับปุ่ม */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ffcc00; /* เหลือง */
+  color: #003366; /* น้ำเงินเข้ม */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+
+}
+/* สไตล์สำหรับฟอร์ม */
+select {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #003366;
+  border-radius: 5px;
+  color: #003366;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+
+}
+
+/* เข้าสู่ระบบหน้าแรก */
+.login-link {
+  display: block;
+  text-align: center;
+  background-color: #b0ee06;
+  padding: 5px;
+  width: 100px;
+  margin: auto;
+  margin-top: 10px;
+  text-decoration: none;
+  color: rgb(22, 5, 5);
+}
+
+/* ปรับเฉพาะหน้า login */
+.login-page h1 {
+  margin: 24px auto 18px;
+  background: rgb(16, 20, 7);
+  color: #e6e2e2;
+  padding: 10px;
+  border-radius: 8px;
+  width: 250px;
+}
+
+/* container ของฟอร์มล็อกอิน */
+.login-container {
+  max-width: 360px;
+  margin: 175px auto 0;
+  background: #e8dddd;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+/* ช่องกรอกข้อมูล */
+.login-container input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+/* ปุ่มล็อกอิน */
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #0d0f0a;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.login-container #msg {
+  margin-top: 10px;
+  color: #c00;
+}
+/* โลโก้โรงเรียน */
+.school-logo {
+  display: block;
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+/* container ของตัวแก้ไข */
+.editor-container {
+  max-width: 600px;
+  margin: auto;
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+/* ส่วนท้ายของตัวแก้ไข */
+.editor-footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.choose-faculty-container {
+  max-width: 400px;
+  margin: 150px auto;
+  background: #e8e1e1;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+
+

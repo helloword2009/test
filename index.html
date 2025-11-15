@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>คะแนนคณะสีโรงเรียนสตรีนครสวรรค์</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <script defer src="scripts/database.js"></script>
+</head>
+<body>
+  <img src="http://www.sns.ac.th/picture/logo.JPG" alt="ตราโรงเรียนสตรีนครสวรรค์" class="school-logo">
+  <h1 class="title">ระบบคะแนนคณะสีโรงเรียนสตรีนครสวรรค์</h1>
+  <div id="scoreboard"></div>
+  <a href="login.html" class="login-link">เข้าสู่ระบบ</a>
+  
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      document.getElementById("faculty").addEventListener("change", renderScores);
+      renderScores();
+    });
+  </script>
+</body>
+</html>
